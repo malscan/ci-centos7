@@ -1,5 +1,5 @@
-# Custom GitLab CI runner image using centos:latest and clamav
-FROM centos:latest
+# Malscan CI Build Testing - GitLab CI Docker Image - CentOS 7 Variant
+FROM centos:7
 MAINTAINER Josh Grancell <jgrancell@malscan.org>
 RUN yum install -y epel-release
 RUN yum install -y file wget clamav clamav-update postfix which
